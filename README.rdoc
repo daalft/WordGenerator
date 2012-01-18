@@ -11,7 +11,7 @@ If necessary, adjust the letter arrays in the source code, as well as the file "
 Create a new WordGenerator with f.i. <tt>wg = WordGenerator.new</tt>, then call +wg.generate+ to automatically generate the output
 based on the file "rules.txt" and the letter arrays.
 == Implemented Features
-[Categories]
+=== Categories
 * Vowel
 * Final
 * Normal
@@ -22,7 +22,7 @@ based on the file "rules.txt" and the letter arrays.
 * Finals are consonants only occuring at the end of a word.
 * Normals are consonants occuring everywhere else in a word.
 * Doubles are consonant-clusters occuring together.
-[Rules]
+=== Rules
 The rules are to be written in the form of a file called "rules.txt" containing one rule per row.
 The following letters are permissible:
 * V for vowels
