@@ -8,7 +8,7 @@ Unreflected use might lead to memory overflow.
 This feature is not implemented yet.
 == Use
 If necessary, adjust the letter arrays in the source code, as well as the file "rules.txt".
-Create a new WordGenerator with f.i. +wg = WordGenerator.new+, then call +wg.generate+ to automatically generate the output
+Create a new WordGenerator with f.i. <tt>wg = WordGenerator.new</tt>, then call +wg.generate+ to automatically generate the output
 based on the file "rules.txt" and the letter arrays.
 == Implemented Features
 === Categories
