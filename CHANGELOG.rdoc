@@ -1,0 +1,9 @@
+== Completed
+=== 0.0.1
+* Basic functionality.
+* Letters are specified in the source code.
+== Planned
+=== 0.0.2
+* Read in the letters from a file.
+* Limit output to n words.
+* Implement rules of probability.

@@ -1,0 +1,35 @@
+= Word Generator
+== Description
+This is a program that generates all possible combinations of categories of letters, given a set of CV-rules.
+I have written this program to get an extensive vocabulary for an imaginary language.
+Before use, it is important to reflect on what the features of the vocabulary you want to build are.
+Unreflected use might lead to memory overflow.
+== Console mode
+This feature is not implemented yet.
+== Use
+If necessary, adjust the letter arrays in the source code, as well as the file "rules.txt".
+Create a new WordGenerator with f.i. +wg = WordGenerator.new+, then call +wg.generate+ to automatically generate the output
+based on the file "rules.txt" and the letter arrays.
+== Implemented Features
+=== Categories
+* Vowel
+* Final
+* Normal
+* Double
+==== Vowels
+* Vowels are self-explanatory.
+==== Consonants
+* Finals are consonants only occuring at the end of a word.
+* Normals are consonants occuring everywhere else in a word.
+* Doubles are consonant-clusters occuring together.
+=== Rules
+The rules are to be written in the form of a file called "rules.txt" containing one rule per row.
+The following letters are permissible:
+* V for vowels
+* C for normal and final consonants, depending on where in the rule the occur
+* CC for consonant clusters
+View the provided "rules.txt" for examples.
+== Caution
+Since this program generates _all_ possible combinations, it may slow your computer down while running or might cause insufficient memory errors.
+The program might take a long time to terminate.
+The output file may be very large, depending on the number of letters used.

@@ -1,0 +1,3 @@
+== License
+This program is copyrighted and may not be used without explicit consent from the author.
+Feel free to email me at s2daalft@uni-trier.de

@@ -1,0 +1,8 @@
+require 'word_generator/word_generator'
+require 'word_generator/version'
+
+wg = WordGenerator::WordGenerator.new
+
+while line = gets
+	puts wg.parse(line)
+end
