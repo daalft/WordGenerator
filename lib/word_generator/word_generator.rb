@@ -24,7 +24,7 @@ module WordGenerator
 		end
 		out
 	  end
-		#parses each rule in a file
+	  #parses each rule in a file
 	  def open_rules 
 		File.open("rules.txt") do |f|
 		  while line = f.gets
@@ -34,12 +34,12 @@ module WordGenerator
 	  end
 	  
 	  public
-		# runs the program with the given rules-file
-		def generate
-			open_rules
-		end
+	  # runs the program with the given rules-file
+	  def generate
+		open_rules
+	  end
 		
-		#manually invoke the parse function
+	  #manually invoke the parse function
 	  def parse s
 		if (s == nil || s == "")
 		  abort
